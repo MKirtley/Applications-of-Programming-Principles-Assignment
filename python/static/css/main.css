@@ -1,0 +1,146 @@
+body {
+    background: rgb(26, 24, 27);
+    color: rgb(255, 255, 255);
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(40, 38, 41);
+}
+
+tr:nth-child(even) {background-color: rgb(60, 57, 61);}
+
+.header {
+    text-align: center;
+}
+
+#sectUsers {
+    width: 775px;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 35px;
+    border: 3px solid rgb(98, 93, 100);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(48, 45, 49);
+    box-shadow: 10px 10px 5px black;
+}
+
+#divPageNumber {
+    margin-bottom: 10px;
+}
+
+#btnPrevious {
+    margin-bottom: 10px;
+}
+
+#btnNext {
+    margin-left: 5px;
+}
+
+#sectUser {
+    width: 350px;
+    float: top;
+    margin-left: 1100px;
+    border: 3px solid rgb(98, 93, 100);
+    background-color: rgb(48, 45, 49);
+    padding: 8px;
+    box-shadow: 10px 10px 5px black;
+}
+
+#userAvatar {
+    text-align: center;
+    padding: 5px;
+}
+
+#frmUser {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#userID {
+    margin-bottom: 5px;
+}
+
+#userEmail {
+    margin-bottom: 5px;
+}
+
+#userFirstName {
+    margin-bottom: 5px;
+}
+
+#userLastName {
+    margin-bottom: 5px;
+}
+
+#userAvatarEdit {
+    margin-bottom: 15px;
+}
+
+#btnDeleteUser {
+    margin-top: 7px;
+}
+
+#sectNewUser {
+    width: 350px;
+    float: top;
+    margin-left: 1100px;
+    margin-top: 30px;
+    border: 3px solid rgb(98, 93, 100);
+    background-color: rgb(48, 45, 49);
+    padding: 8px;
+    box-shadow: 10px 10px 5px black;
+    text-align: center;
+}
+
+#newUserID {
+    margin-bottom: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#newUserEmail {
+    margin-bottom: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#newUserFirstName {
+    margin-bottom: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#newUserLastName {
+    margin-bottom: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#newUserAvatar {
+    margin-bottom: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#btnNewUser {
+    margin-top: 7px;
+}
+
+tr:hover {
+    background-color: #555555;
+}
+
+#body{
+  overflow-x: scroll;
+}
