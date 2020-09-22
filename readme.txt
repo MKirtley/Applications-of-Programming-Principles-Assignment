@@ -1,1 +1,0 @@
-Run app.py in the IDE and everything should work fine :)
